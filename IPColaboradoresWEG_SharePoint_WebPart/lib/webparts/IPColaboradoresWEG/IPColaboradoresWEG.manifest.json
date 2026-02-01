@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "c860920c-ba6e-490c-9b3a-8e041aec7ec5",
+  "alias": "IpColaboradoresWeg",
+  "componentType": "WebPart",
+  "version": "1.0.0",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Advanced" },
+      "title": { "default": "IP Colaboradores WEG" },
+      "description": { "default": "Mostra o IP do colaborador atual" },
+      "officeFabricIconFontName": "Server",
+      "properties": {
+        "fontColor": "#000",
+        "backgroundType": "color",
+        "backgroundColor": "#fff"
+      }
+    }
+  ]
+}

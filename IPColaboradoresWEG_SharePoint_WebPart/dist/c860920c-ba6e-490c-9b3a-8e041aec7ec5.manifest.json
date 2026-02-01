@@ -1,0 +1,57 @@
+{
+  "id": "c860920c-ba6e-490c-9b3a-8e041aec7ec5",
+  "alias": "IpColaboradoresWeg",
+  "componentType": "WebPart",
+  "version": "1.0.0",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "IP Colaboradores WEG"
+      },
+      "description": {
+        "default": "Mostra o IP do colaborador atual"
+      },
+      "officeFabricIconFontName": "Server",
+      "properties": {
+        "fontColor": "#000",
+        "backgroundType": "color",
+        "backgroundColor": "#fff"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/dist/"
+    ],
+    "entryModuleId": "ip-colaboradores-weg-web-part",
+    "scriptResources": {
+      "ip-colaboradores-weg-web-part": {
+        "type": "path",
+        "path": "ip-colaboradores-weg-web-part_15f1dd63f77a868977e7.js"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.21.1"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.21.1"
+      }
+    }
+  }
+}
